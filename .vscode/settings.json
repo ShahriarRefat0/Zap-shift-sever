@@ -19,5 +19,14 @@
     "titleBar.inactiveForeground": "#e7e7e799"
   },
   "peacock.color": "#215732",
-  "postman.settings.dotenv-detection-notification-visibility": false
+  "postman.settings.dotenv-detection-notification-visibility": false,
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
